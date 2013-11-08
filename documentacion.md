@@ -40,7 +40,9 @@ distribución a instalar es de 32bits
 
 Aquí una captura en el proceso de instalación:
 
-Entramos en la jaula con sudo chroot /home/jaulas/debian
+Entramos en la jaula con 
+
+> sudo chroot /home/jaulas/debian
 
 La máquina tal como está es usable, pero no está completa. Para solucionarlo escribimos:
 
@@ -65,7 +67,7 @@ Para reiniciar el servicio  escribimos
 Todo instalado ahora copiamos nuestra aplicacion en la carpeta: Metemos nuestra aplicacion (periodico1,que solo tiene 
 html) en debian/var/www
 
-> cp -r aplicacion /home/jaulas/debian/var/www
+> sudo cp -r aplicacion/* /home/jaulas/debian/var/www
 
 Ahora hacemos lo siguiente:
 
