@@ -1,0 +1,215 @@
+@charset "utf-8";
+#principal{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	width:1200px;
+	padding:2px;
+	border:2px solid red;
+	margin:2px;
+	color:red;
+}
+#contenedor_principal{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	width:1000px;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+	color:red;
+}
+#contenedor_menu{
+	font-family: 'Helvetica','Verdana','Monaco',sans-serif;
+	text-align:center;
+	margin:1px;
+	font-size:24px;
+	color:#FFF;
+	background-color:#FF9;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+
+#tituloperiodico {
+	  font-style:italic;
+	  font-weight:bold;
+	  font-size:3em;
+	  font-color:#00F;
+      font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	  text-align:center;
+	 border: 2px solid ;
+	 background-color:#FF9;
+}
+#tituloseccion {
+	  font-style:oblique;
+	  font-weight:bold;
+	  font-size:18px;
+	  color:#000;
+      font-family:"Comic Sans MS", cursive;
+	  text-align:left;
+	  background-color:#FFC;
+	  padding:2px;
+	  border:2px solid gray;
+	  margin:2px;
+	}
+#titulonoticia{
+	  font-style:inherit;
+	  font-weight:bold;
+	  font-size:40px;
+	  color:#000
+      font-family:"Comic Sans MS", cursive;
+	  text-align:center;
+}
+#articulonoticia{
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+	background-color:#F3F3F3;
+	text-align:justify;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+	
+}
+#infonoticia{
+	text-align:right;
+	color:#A1A1A1;
+	font-size:10px;
+	font-style:oblique;
+	font-family:"Comic Sans MS", cursive;
+}
+#parrafo{
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#3A3A3A;
+	font-style:normal;
+}
+#contenedorcomentarios{
+	background-color:#DBDBDB;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+#comentarios {
+	text-align:left;
+	color:#777;
+	font-size:14px;
+	font-style:oblique;
+	font-family:"Comic Sans MS", cursive;
+	
+}
+#noticiasrelacionadas{
+	text-align:center;
+	color:#777;
+	font-size:14px;
+	font-style:oblique;
+	font-family:"Comic Sans MS", cursive;
+	text-decoration:underline;
+}
+#contenedor_interes{
+	background-color:#FF9;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+#publi{
+	background-color:#FF9;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+#infoperiodico{
+	text-align:right;
+	color:#A1A1A1;
+	font-size:14px;
+	font-style:oblique;
+	font-family:"Comic Sans MS", cursive;
+}
+#contacto{
+	background-color:#FF9;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+#noticia_destacada{
+	font:bold 12px "Trebuchet MS";
+	color:#000;
+	background-color:#F7F7F7;
+	text-align:justify;
+	padding:2px;
+	border:4px solid gray;
+	margin:3px;
+}
+#leermas{
+	text-align:right;
+	color:#FF0;
+	font-size:10px;
+	font-style:italic;
+	font-family:"Comic Sans MS", cursive;
+}
+#gruponoticia{
+	text-align:left;
+	colo:black;
+	font-size:14px;
+	font:"Comic Sans MS", cursive;
+}
+#noticia_secundaria{
+	text-align:center;
+	color:#36F;
+	font-size:22px;
+}
+#parrafo2{
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	color:#3A3A3A;
+	font-style:normal;
+}
+#parrafo3{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	color:#3A3A3A;
+	font-style:normal;
+}
+#noticia_terciaria{
+	text-align:center;
+	color:#36F;
+	font-size:18px;
+}
+#tabla2 {
+	vertical-align: top;
+}
+#ultimas_noticias{
+	background-color:#FF6;
+	padding:2px;
+	border:2px solid gray;
+	margin:2px;
+}
+#ultimasnoticias{
+	font-family:"Lucida Console", Monaco, monospace;
+	text-align:center;
+	font-size:16px;
+	color:#9E9E9E;
+	font-style:normal;
+}
+#noticia_ultima{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	font-size:14px;
+	color:#707070;
+	font-style:normal;
+}
+#formulario{
+	font:bold 12px "Trebuchet MS";
+	color:#5D5D5D;
+	background-color:#FF9;
+	text-align:left;
+	padding:3px;
+	border:4px solid gray;
+	margin:4px;
+}
+
+	
+
+	
+	
+	
+	
+	
