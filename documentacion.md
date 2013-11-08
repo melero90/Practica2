@@ -60,16 +60,11 @@ ahora el modulo para php5:
 
 > apt-get install php5 libapache2-mod-php5
 
-Para reiniciar el servicio  escribimos
+Todo instalado ahora copiamos nuestra aplicacion en la carpeta: Metemos nuestra aplicacion en /debian/var/www
 
-> /etc/init.d/apache2 restart
+> sudo cp -r Periodico/* /home/jaulas/debian/var/www
 
-Todo instalado ahora copiamos nuestra aplicacion en la carpeta: Metemos nuestra aplicacion (periodico1,que solo tiene 
-html) en debian/var/www
-
-> sudo cp -r aplicacion/* /home/jaulas/debian/var/www
-
-Ahora hacemos lo siguiente:
+Ahora hacemos lo siguiente, para reiniciar el servicio apache:
 
 > etc/init.d/apache2 restart
 
