@@ -27,7 +27,7 @@ poder instalar la versión de Ubuntu. Escribimos en el terminal:
 
 Una vez instalado, lo siguiente sera elegir una versión de Ubuntu a instalar. Podemos elegir entre la siguientes:
 
-http://es.wikipedia.org/wiki/Anexo:Versiones_de_Ubuntu#Ubuntu_13.04
+> http://es.wikipedia.org/wiki/Anexo:Versiones_de_Ubuntu#Ubuntu_13.04
 
 La versión que voy a utilizar es debian de 32 bits, ya que la tenía instalada para la realización de los ejercicios.
 Para ello, lo primero, será crear un directorio en /home/jaulas/debian mediante la orden y creado el directorio proce-
