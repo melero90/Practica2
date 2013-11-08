@@ -40,9 +40,13 @@ distribución a instalar es de 32bits
 
 Aquí una captura en el proceso de instalación:
 
+![captura1](https://dl.dropbox.com/s/60vl1wpdk9crsbh/captura1.png)
+
 Entramos en la jaula con 
 
 > sudo chroot /home/jaulas/debian
+
+![captura2](https://dl.dropbox.com/s/12jse27ehjztx4g/captura2.png)
 
 La máquina tal como está es usable, pero no está completa. Para solucionarlo escribimos:
 
@@ -52,6 +56,10 @@ Y para solucionar los errores con el lenguaje español instalamos el siguiente p
 
 > apt-get install language-pack-es
 
+Esta captura muestra como ya si podemos ejecutar una orden como es *top*:
+
+![captura3](https://dl.dropbox.com/s/x3cc3214nah9dbn/captura3.png)
+
 Ahora que nuestra máquina está preparada, lo siguiente será instalar el servidor Apache. Tecleamos desde el terminal:
 
 > apt-get install apache2
@@ -60,16 +68,26 @@ ahora el modulo para php5:
 
 > apt-get install php5 libapache2-mod-php5
 
+Reiniciamos el servicio Apache:
+
+![captura4](https://dl.dropbox.com/s/df5qjvi9fhws2t0/captura4.png)
+
 Todo instalado ahora copiamos nuestra aplicacion en la carpeta: Metemos nuestra aplicacion en /debian/var/www
+
+![captura5](https://dl.dropbox.com/s/c8pj4sntdlyptmg/captura5.png)
 
 > sudo cp -r Periodico/* /home/jaulas/debian/var/www
 
-Ahora hacemos lo siguiente, para reiniciar el servicio apache:
+![captura6](https://dl.dropbox.com/s/d3e36ia8ocnewmg/captura6.png)
+
+Ahora hacemos lo siguiente, para reiniciar el servicio apache, de nuevo:
 
 > etc/init.d/apache2 restart
 
-Abrimos nuestro navegador web y escribimos en la barra de direcciones "localhost".
-La aplicacion elegida, en este caso, el Periodico para la asignatura del curso pasado, Tecnologias Web, esta funcionando
+![captura7](https://dl.dropbox.com/s/47qo5u8qethx9j5/captura7.png)
+
+Abrimos nuestro navegador web y escribimos en la barra de direcciones "localhost". El Periodico está funcionando.
 Aquí una captura:
 
+![captura8](https://dl.dropbox.com/s/t8wqe0asqzyciva/captura8.png)
 
