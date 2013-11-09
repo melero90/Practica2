@@ -91,3 +91,23 @@ Aquí una captura:
 
 ![captura8](https://dl.dropbox.com/s/t8wqe0asqzyciva/captura8.png)
 
+
+#### Conclusión
+
+La creación de una *jaula* con chroot básicamente es crear una máquina virtual (árbol del sistema) en un directorio.
+En esta estructura var, bin, etc,...  introduces las bibliotecas, ficheros y binarios necesarios para que un proceso 
+encuentre lo necesario y se ejecute sin salir del sistema de ficheros creado, es decir que solo vea esa estructura de 
+ficheros y directorios y el usuario que ejecute el proceso no pueda salir de la jaula creada (no salga facilmente).
+
+#### Enlace al Repositorio
+
+https://github.com/melero90/Practica2
+
+#### Bibliografía
+
+1. https://wiki.ubuntu.com/DebootstrapChroot
+2. http://jj.github.io/IV/documentos/temas/Tecnicas_de_virtualizacion
+3. http://es.wikipedia.org/wiki/Anexo:Versiones_de_Ubuntu#Ubuntu_13.04
+4. http://soportetecnicocurc.blogspot.com.es/2013/03/instalar-apache-php-mysql-y-phpmyadmin.html
+5. http://rogerdudler.github.io/git-guide/index.es.html
+
